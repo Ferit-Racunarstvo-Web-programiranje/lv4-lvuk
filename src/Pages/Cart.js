@@ -21,7 +21,16 @@ const Cart = () => {
             <>
               <div>No items in your cart</div>
               <div>
-                <Link to='/'>Return to Home page</Link>
+                <Link
+                  to='/'
+                  style={{
+                    fontSize: '2em',
+                    textDecoration: 'none',
+                    color: '#f4948c',
+                  }}
+                >
+                  Return to Home page
+                </Link>
               </div>
             </>
           )}
@@ -79,7 +88,7 @@ const Cart = () => {
                 <span>Total Quantity</span>
                 <span>{totalQty}</span>
               </div>
-              <Link to='cashout' className='cashout-link'>
+              <Link to='/cashout' className='cashout-link'>
                 <button
                   className='btn btn-success btn-md'
                   style={{ marginTop: 5 + 'px' }}
