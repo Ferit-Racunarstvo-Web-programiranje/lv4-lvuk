@@ -1,18 +1,25 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Home from './components/Home';
-import AddProduct from './components/AddProduct';
-import { ProductsContextProvider } from './global/ProductContext';
+import logo from './logo.svg';
+import './App.css';
 
-const App = () => {
+function App() {
   return (
-    <ProductsContextProvider>
-      <BrowserRouter>
-        <Routes>
-          <Route exact path='/' element={<Home />} />
-          <Route path='/add-products' element={<AddProduct />} />
-        </Routes>
-      </BrowserRouter>
-    </ProductsContextProvider>
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
   );
-};
+}
+
 export default App;
