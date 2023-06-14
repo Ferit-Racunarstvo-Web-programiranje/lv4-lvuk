@@ -8,13 +8,19 @@
   height: auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   padding: 1.5em 2em;
+  background-color: #272727;
+  color: white;
+}
+
+.nav-left {
+  width: 5%;
 }
 
 .nav-left img {
-  width: 20%;
+  width: 150%;
 }
 
 .nav-right {
