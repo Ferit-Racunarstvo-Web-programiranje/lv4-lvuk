@@ -1,0 +1,23 @@
+.wrapper {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.nav-container {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5em 2em;
+}
+
+.nav-left img {
+  width: 20%;
+}
+
+.nav-right {
+  display: flex;
+  flex-direction: row;
+}

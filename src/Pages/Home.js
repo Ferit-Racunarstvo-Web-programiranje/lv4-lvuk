@@ -1,9 +1,10 @@
-import Navbar from '../Components/Navbar';
-import Products from '../Components/Products';
+import Navbar from '../components/Navbar';
+import Products from '../components/Products';
+import '../css/home.css';
 
 const Home = () => {
   return (
-    <div>
+    <div className='wrapper'>
       <Navbar />
       <Products />
     </div>
