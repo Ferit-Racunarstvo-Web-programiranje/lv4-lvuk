@@ -217,3 +217,15 @@ h1 {
   text-decoration: none;
   color: #000;
 }
+
+.success-msg {
+  background-color: green;
+  color: #fff;
+  padding: 7px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.success-msg .home-link {
+  color: #fff;
+}

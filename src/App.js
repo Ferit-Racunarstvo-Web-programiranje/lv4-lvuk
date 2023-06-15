@@ -5,6 +5,7 @@ import { ProductsContextProvider } from './context/ProductContext';
 import { CartContextProvider } from './context/CartContext';
 import Cart from './Pages/Cart';
 import { ToastContainer } from 'react-toastify';
+import Cashout from './Pages/Cashout';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
             <Route exact path='/' element={<Home />} />
             <Route path='/add-products' element={<AddProduct />} />
             <Route path='/cart' element={<Cart />} />
+            <Route path='/cashout' element={<Cashout />} />
           </Routes>
         </BrowserRouter>
       </CartContextProvider>

@@ -82,7 +82,7 @@ const Cart = () => {
               <div className='cart-summary-heading'>Cart-Summary</div>
               <div className='cart-summary-price'>
                 <span>Total Price</span>
-                <span>${totalPrice}</span>
+                <span>${totalPrice.toFixed(2)}</span>
               </div>
               <div className='cart-summary-price'>
                 <span>Total Quantity</span>

@@ -17,7 +17,7 @@ export const CartReducer = (state, action) => {
       );
       if (check) {
         if (!toastShown) {
-          toast.warn('🦄 Wow so easy!', {
+          toast.warn('Item already in cart', {
             position: 'top-center',
             autoClose: 2000,
             hideProgressBar: false,
